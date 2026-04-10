@@ -55,6 +55,24 @@ export default {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		},
+        fontFamily: {
+            sans: ['var(--font-plus-jakarta)', 'sans-serif'],
+            heading: ['var(--font-space-grotesk)', 'sans-serif'],
+            mono: ['var(--font-space-mono)', 'monospace'],
+        },
+        boxShadow: {
+            'brutal': '4px 4px 0px 0px rgba(79, 70, 229, 1)',
+            'brutal-hover': '2px 2px 0px 0px rgba(79, 70, 229, 1)',
+            'neumorphic-dark': '10px 10px 20px #e6e4df, -10px -10px 20px #ffffff',
+            'neumorphic-dark-inner': 'inset 10px 10px 20px #e6e4df, inset -10px -10px 20px #ffffff',
+            'glass': '0 4px 30px rgba(0, 0, 0, 0.05)',
+        },
+        backgroundImage: {
+            'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.0))',
+        },
+        backdropBlur: {
+            'glass': '10px',
+        },
   		keyframes: {
   			'accordion-down': {
   				from: {
